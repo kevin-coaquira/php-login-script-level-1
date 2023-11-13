@@ -6,7 +6,7 @@ session_start();
 // set your default time-zone
 date_default_timezone_set('Asia/Manila');
 // home page url
-$home_url="http://kcoaquirachoquecallata.randion.es/dwes/ejercicios-1ra-eva-Kcoaquirachoquecallata/php-login-script-level-1/login.php?action=please_login";
+$home_url="http://kcoaquirachoquecallata.randion.es/dwes/ejercicios-1ra-eva-Kcoaquirachoquecallata/php-login-script-level-1/";
 // page given in URL parameter, default page is one
 $page = isset($_GET['page']) ? $_GET['page'] : 1;
 // set number of records per page
